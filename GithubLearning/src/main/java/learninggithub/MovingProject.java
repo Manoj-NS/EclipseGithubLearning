@@ -32,6 +32,7 @@ public class MovingProject {
 		datePicker1.sendKeys("09/25/2024");
 		
 		System.out.println("Date Entered as : "+datePicker1.getAttribute("value"));
+		System.out.println("Date Entered as : "+datePicker1.getAttribute("id"));
 		
 				
 		driver.close();
