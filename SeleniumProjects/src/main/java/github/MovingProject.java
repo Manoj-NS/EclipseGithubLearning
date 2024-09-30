@@ -33,8 +33,7 @@ public class MovingProject {
 		
 		System.out.println("Date Entered as : "+datePicker1.getAttribute("value"));
 		
-		System.out.println("Date Entered as : "+datePicker1.getAttribute("id"));
-		
+				
 		driver.close();
 	
 		
